@@ -1,0 +1,17 @@
+server:
+  port: 8762
+  
+spring:
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+            - id: studentsvc-route
+              uri: lb://studentsvc
+              predicates:
+                - Path=/studentsvc/**
+          discovery:
+            locator:
+              enabled: true
+              lower-case-service-id: true
