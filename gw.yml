@@ -10,7 +10,7 @@ spring:
             - id: studentsvc-route
               uri: lb://studentsvc
               predicates:
-                - Path=/studentsvc/**
+                - Path=/student/**
           discovery:
             locator:
               enabled: true
