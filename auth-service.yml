@@ -1,0 +1,4 @@
+security:
+  jwt:
+    secret: qwertyuiopasdfghjklzxcvbnm123456qwertyuiopasdfghjklzxcvbnm123456
+    expiration-ms: 3600000
