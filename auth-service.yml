@@ -1,3 +1,5 @@
+server:
+  port: 8081
 security:
   jwt:
     secret: qwertyuiopasdfghjklzxcvbnm123456qwertyuiopasdfghjklzxcvbnm123456
