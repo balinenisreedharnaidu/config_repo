@@ -1,3 +1,18 @@
+app:
+  title: Student Service Title
+server:
+  port: 8082
+
+student:
+  cache:
+    enabled: true
+
+security:
+  jwt:
+    secret: qwertyuiopasdfghjklzxcvbnm123456qwertyuiopasdfghjklzxcvbnm123456
+    expiration-ms: 3600000
+
+
 spring:
   kafka:
     bootstrap-servers: 10.10.0.187:9092
