@@ -1,5 +1,6 @@
 app:
   title: Student Service Title
+  
 server:
   port: 8082
 
